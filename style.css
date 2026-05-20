@@ -1,24 +1,38 @@
-body{
-    background: black;
-    font-family: arial;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(154deg, #F8F8FF 30% , #FF66CC 80%);
+    line-height: 1.4;
     height: 100vh;
 }
 
+    @media (max-width: 768px) {
+      .card {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        width: 90%;
+      }
+    }
+
 .About-me{
-    background: white;
-    width: 100px;
-    padding: 200px;
-    border-radius: 20px;
-    text-align: center;
+    width: 250px;
+    height: 350px;
+    border-radius: 50px;
+    background: linear-gradient(154deg, #FF66CC 20% , #FFFAF0 85%);
+    opacity: 1;
 }
 
-img{
+button{
     position: relative;
-    border-radius: 50%;
-    top: -150px;
-    left: -20px;
-
+    top: 120px;
+    left: 57px;
+    padding: 20px 30px;
+    border-radius: 40%;
+    background: linear-gradient(154deg , #6699FF 20% , #00CCFF 50%);
 }
