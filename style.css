@@ -20,9 +20,8 @@ body {
       }
     }
 
-.box{
-    position: relative;
-    width: 320px;
+.About-me{
+    width: 350px;
     height: 450px;
     border-radius: 50px;
     background: linear-gradient(154deg, #FF66CC 20% , #FFFAF0 85%);
