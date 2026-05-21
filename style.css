@@ -22,8 +22,9 @@ body {
 
 .box{
     position: relative;
-    width: 400px;
-    height: 500px;
-    border-radius: 20%;
-    background-color: rgb(255, 255, 255);
+    width: 320px;
+    height: 450px;
+    border-radius: 50px;
+    background: linear-gradient(154deg, #FF66CC 20% , #FFFAF0 85%);
+    opacity: 1;
 }
