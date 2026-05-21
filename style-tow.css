@@ -20,10 +20,19 @@ body {
       }
     }
 
-.box{
+.About-me{
+    width: 250px;
+    height: 350px;
+    border-radius: 50px;
+    background: linear-gradient(154deg, #FF66CC 20% , #FFFAF0 85%);
+    opacity: 1;
+}
+
+.Box1{
     position: relative;
-    width: 400px;
-    height: 500px;
-    border-radius: 20%;
-    background-color: rgb(255, 255, 255);
+    top: 120px;
+    left: 55px;
+    padding: 20px 40px;
+    border-radius: 40%;
+    background: linear-gradient(154deg , #6699FF 20% , #00CCFF 50%);
 }
