@@ -35,8 +35,8 @@ body {
 p {
    position: absolute;
    top: 22%;
-   left: 44%;
-   font-size: 30px;
+   left: 42%;
+   font-size: 25px;
    font-weight: bold;
 }
 
@@ -77,10 +77,4 @@ img{
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0,0 , 0.2);
     cursor: pointer;
-}
-
-.kum{
-  position: relative;
-  font-size: 10px;
-  top: 470px;
 }

@@ -21,9 +21,50 @@ body {
     }
 
 .About-me{
-    width: 350px;
-    height: 450px;
+    width: 400px;
+    height: 500px;
     border-radius: 50px;
     background: linear-gradient(154deg, #FF66CC 20% , #FFFAF0 85%);
     opacity: 1;
+}
+
+.About-me {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+p {
+   position: absolute;
+   top: 22%;
+   left: 44%;
+   font-size: 30px;
+   font-weight: bold;
+}
+
+img{
+    position: absolute;
+    border-radius: 20px;
+    left: 45%;
+    top: 30%;
+}
+
+a{
+    position: absolute;
+    left: 46%;
+    top: 60%;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(154deg , #6699FF 20% , #00CCFF 50%);
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0,0 , 0.2);
+    cursor: pointer;
+}
+
+.kum{
+  position: relative;
+  font-size: 10px;
+  top: 470px;
 }
